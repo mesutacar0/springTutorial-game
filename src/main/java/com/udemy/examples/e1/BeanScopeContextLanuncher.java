@@ -1,4 +1,4 @@
-package com.udemy.examples.a0;
+package com.udemy.examples.e1;
 
 import java.util.Arrays;
 
@@ -9,10 +9,10 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan
-public class SimpleSpringContextLanuncher {
+public class BeanScopeContextLanuncher {
 
     public static void main(String[] args) {
-        try (var context = new AnnotationConfigApplicationContext(SimpleSpringContextLanuncher.class)) {
+        try (var context = new AnnotationConfigApplicationContext(BeanScopeContextLanuncher.class)) {
 
             Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
 

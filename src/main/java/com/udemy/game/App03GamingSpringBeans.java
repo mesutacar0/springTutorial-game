@@ -1,10 +1,7 @@
-package com.udemy;
+package com.udemy.game;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import com.udemy.game.GameRunner;
-import com.udemy.game.GamingConsole;
 
 public class App03GamingSpringBeans {
 
